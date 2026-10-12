@@ -18,8 +18,8 @@ Nothing here uses Derek's accounts, keys or Claude usage. Everything is set up u
 In Claude Code, type these one at a time:
 
 ```
-/plugin marketplace add dealsmithrealty/dsr-video-kit
-/plugin install youtube-edit@dsr-video-kit
+/plugin marketplace add dealsmithrealty/dsr-agent-kit
+/plugin install youtube-edit@dsr-agent-kit
 ```
 
 Restart Claude Code, then type:
@@ -66,5 +66,5 @@ When you give a note during an edit ("the text is too small"), add **"save this 
 
 ## Updates and help
 
-- Get the latest version: `/plugin marketplace update dsr-video-kit`
+- Get the latest version: `/plugin marketplace update dsr-agent-kit`
 - Something broken? Run `/video-setup` again; it re-checks everything. Still stuck, send Derek the last screen of output.

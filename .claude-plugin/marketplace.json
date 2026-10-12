@@ -1,8 +1,6 @@
 {
-  "name": "dsr-video-kit",
-  "owner": {
-    "name": "Deal Smith Realty"
-  },
+  "name": "dsr-agent-kit",
+  "owner": { "name": "Deal Smith Realty" },
   "metadata": {
     "description": "Deal Smith Realty's Claude Code tools for agents. Each agent runs them on their own Mac with their own accounts."
   },
@@ -11,6 +9,11 @@
       "name": "youtube-edit",
       "source": "./plugins/youtube-edit",
       "description": "Edit YouTube videos end to end on your own Mac with your own accounts."
+    },
+    {
+      "name": "deal-forge",
+      "source": "./plugins/deal-forge",
+      "description": "Find everyone you have texted, sort them, draft reconnect texts, and sync to your own GoHighLevel."
     }
   ]
 }

@@ -1,0 +1,34 @@
+{
+  "agent_name": "Your Name",
+  "agent_first_name": "Your",
+  "brokerage": "Deal Smith Realty",
+  "voice_notes": "",
+  "lookback_days": 1825,
+  "min_messages": 2,
+  "quiet_days": 21,
+  "classify": {
+    "model": "haiku",
+    "batch_size": 10,
+    "limit": 300
+  },
+  "cadence_days": {
+    "past_client": 90,
+    "lead": 21,
+    "referral_partner": 60,
+    "friend": 75,
+    "agent": 120,
+    "vendor": 180,
+    "acquaintance": 180,
+    "family": 0
+  },
+  "ghl": {
+    "enabled": false,
+    "location_id": "",
+    "keychain_service": "deal-forge",
+    "token_key": "ghl-pit-token",
+    "skip_relationships": [
+      "family"
+    ]
+  },
+  "dashboard_port": 8765
+}

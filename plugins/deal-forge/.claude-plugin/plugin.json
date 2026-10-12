@@ -1,0 +1,7 @@
+{
+  "name": "deal-forge",
+  "version": "1.0.0",
+  "description": "Find everyone you have texted, sort them with your own Claude, draft reconnect texts, and work them from a local dashboard. Syncs to your own GoHighLevel.",
+  "author": { "name": "Deal Smith Realty" },
+  "license": "MIT"
+}
