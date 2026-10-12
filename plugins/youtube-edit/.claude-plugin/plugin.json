@@ -1,0 +1,7 @@
+{
+  "name": "youtube-edit",
+  "version": "1.0.0",
+  "description": "Edit YouTube videos end to end in Claude Code on your own Mac, with your own accounts: cut, animated overlays, sound, 4K render, delivery.",
+  "author": { "name": "Deal Smith Realty" },
+  "license": "MIT"
+}

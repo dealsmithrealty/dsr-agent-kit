@@ -1,0 +1,16 @@
+{
+  "name": "dsr-video-kit",
+  "owner": {
+    "name": "Deal Smith Realty"
+  },
+  "metadata": {
+    "description": "Deal Smith Realty's Claude Code tools for agents. Each agent runs them on their own Mac with their own accounts."
+  },
+  "plugins": [
+    {
+      "name": "youtube-edit",
+      "source": "./plugins/youtube-edit",
+      "description": "Edit YouTube videos end to end on your own Mac with your own accounts."
+    }
+  ]
+}

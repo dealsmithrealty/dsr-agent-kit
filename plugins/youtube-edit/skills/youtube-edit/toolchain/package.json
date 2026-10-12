@@ -1,0 +1,10 @@
+{
+  "name": "yt-edit-toolchain",
+  "version": "1.0.0",
+  "description": "Pinned HyperFrames for the youtube-edit skill",
+  "license": "ISC",
+  "dependencies": {
+    "hyperframes": "0.8.134"
+  },
+  "private": true
+}

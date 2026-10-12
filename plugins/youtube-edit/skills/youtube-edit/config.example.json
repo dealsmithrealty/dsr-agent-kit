@@ -1,0 +1,32 @@
+{
+  "creator_name": "Your Name",
+  "brand": {
+    "name": "Deal Smith Realty",
+    "highlight": "#FFBB00",
+    "anchor": "#8F6A10",
+    "punchline": "#FCEFAE"
+  },
+  "workdir": "~/yt-edit",
+  "staging_dir": "~/Movies/YouTube Renders",
+  "compliance": {
+    "enabled": true,
+    "broker_name": "Deal Smith Realty",
+    "iabs_url": "",
+    "consumer_protection_url": "https://www.trec.texas.gov/forms/consumer-protection-notice"
+  },
+  "delivery": {
+    "mode": "local",
+    "drive_folder_path": "",
+    "drive_api": {
+      "folder_id": "",
+      "keychain_service": "youtube-edit",
+      "client_id_key": "google-client-id",
+      "client_secret_key": "google-client-secret",
+      "refresh_token_key": "google-refresh-token",
+      "googleapis_dir": ""
+    }
+  },
+  "render": { "workers": 1, "heap_mb": 6144, "gpu": false, "min_free_gb": 40 },
+  "connectors": { "opusclip": false, "heygen_music": false, "tella": false, "epidemic_sound": false },
+  "keychain_service": "youtube-edit"
+}
