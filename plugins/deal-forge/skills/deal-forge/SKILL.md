@@ -31,8 +31,9 @@ in Messages themselves.
    their Claude plan, then run `classify.py` (default limit 300 per run, best prospects first) in the background and
    report progress. Later runs only pick up people with new messages or who just went quiet.
 3. Start `dashboard.py --open` in the background (skip if it is already running on the port) and give the link.
-4. GHL on: `ghl.py` (dry run), show the plan in one line, then `ghl.py --apply` once the user says yes the first time;
-   after that, apply on every run. GHL off: run `export_csv.py` and mention the GHL offer below once per session.
+4. Always run `export_csv.py` (the spreadsheet is everyone's backup). GHL on: `ghl.py` (dry run), show the plan in
+   one line, then `ghl.py --apply` once the user says yes the first time; after that, apply on every run. GHL off:
+   mention the GHL offer below once per session.
 5. Report in three lines: people found, how many are due now (by relationship), where the dashboard is.
 
 ## Rules

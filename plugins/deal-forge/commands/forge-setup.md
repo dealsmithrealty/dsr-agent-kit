@@ -16,7 +16,8 @@ dialog). Never use anyone else's account, Keychain entry or GHL location. Never 
    `$SK/config.example.json`): `agent_name` (full name), `agent_first_name` (how they sign texts), `brokerage`
    (ask; e.g. Deal Smith Realty or Interweb Realty). Optional `voice_notes`: one line on how they text ("short, no
    emojis", "always say y'all"). Keep the cadence defaults unless they want changes; show them in one line.
-3. **Claude.** Confirm `claude -p "reply with ok" --model haiku` answers. The sorting uses their own Claude plan.
+3. **Claude.** Confirm `claude -p "reply with ok" --model haiku` answers. The sorting uses their own Claude plan;
+   Pro is usually enough for Deal Forge (the first run is the heaviest).
 4. **GoHighLevel.** Ask if they have it.
    - Yes: walk them through the Private Integration token (Settings > Private Integrations > Create new integration,
      name "Deal Forge", scopes View Contacts, Edit Contacts, View Locations, create, copy). Then run
